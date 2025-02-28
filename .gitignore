@@ -5,7 +5,9 @@
 # Ignore Terraform plan files
 *.tfplan
 
-# Ignore Terraform cache and lock files
+# Ignore Terraform state and cache files
+*.tfstate
+*.tfstate.backup
 .terraform/
 .terraform.lock.hcl
 
