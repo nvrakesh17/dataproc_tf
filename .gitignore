@@ -1,0 +1,19 @@
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Ignore Terraform plan files
+*.tfplan
+
+# Ignore log and output files
+*.log
+*.out
+
+# Ignore sensitive variable files
+terraform.tfvars.json
+*.auto.tfvars
+
+# Ignore test result files
+test-results/
+coverage/
+
