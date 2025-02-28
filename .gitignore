@@ -11,6 +11,11 @@
 .terraform/
 .terraform.lock.hcl
 
+# Ignore Terraform cache and provider binaries
+.terraform/
+.terraform.lock.hcl
+
+
 # Ignore log and output files
 *.log
 *.out
